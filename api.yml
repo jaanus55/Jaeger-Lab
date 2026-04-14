@@ -1,0 +1,10 @@
+services:
+  fulfilment-api:
+    image: courselabs/fulfilment-api
+    ports:
+      - "8080:80"
+    networks:
+      - fulfilment
+
+networks:
+  fulfilment:
